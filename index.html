@@ -61,7 +61,8 @@
         padding: 1em;
     }
 </style>
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
+
 <body>
     <header>
         <h4><i style='font-size:24px' class='fas'>&#xf11c;</i> Ejercicios en JavaScript</h4>
@@ -70,6 +71,7 @@
     <div id="main">
         <div class="container">
             <div class="table-responsive">
+                <p>Para utilizar números con decimales, recuerda utilizar el punto "."</p>
                 <table class="table">
                     <thead>
                         <tr>
@@ -103,9 +105,10 @@
                                     <p>Peso(kg): <input id="weight" type="number"></p>
                                     <p>Estatura(m): <input id="height" type="number"></p>
                                     <p>
-                                        <input type="button" onclick="bmi()" value="Calcular">
-                                        <input type="reset" value="Borrar">
-                                    </p>
+                                    <p>"Bajo de peso" menor a 18.5 | "Normal" entre 18.5 y 24.9 </p>
+                                    <p>"Sobrepeso" entre 25 y 29.9 | "Obeso" mayor 30</p>
+                                    <input type="button" onclick="bmi()" value="Calcular">
+                                    <input type="reset" value="Borrar">
                                 </form>
                             </th>
                         </tr>
